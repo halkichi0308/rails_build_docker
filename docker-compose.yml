@@ -1,0 +1,15 @@
+version: '3'
+services:
+    rails-server:
+        build:
+            context: .
+            args:
+                APP_ROOT: $APP_ROOT
+        env_file:
+            -   '.env'
+        volumes:
+            -   '.:${APP_ROOT}'
+        ports:
+            -   '3000:3000'
+
+            
