@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You want start rails using docker, following  command is enough.
 
-Things you may want to cover:
+```
+$cd rails_build_docker
 
-* Ruby version
+$docker-compose up -d
+```
 
-* System dependencies
+than use a browser to access ``localhost:3000``
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You'll see the rails page.
